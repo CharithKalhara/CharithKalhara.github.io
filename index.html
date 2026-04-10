@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charith Kalhara | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family:'Segoe UI', sans-serif;
+  background:#ffffff;
+  color:#1f1f1f;
+}
+
+header{
+  padding:20px 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #e5e5e5;
+}
+
+header h1{
+  font-size:1.3rem;
+  font-weight:600;
+}
+
+nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:#262626;
+  font-size:0.9rem;
+}
+
+.hero{
+  padding:80px 60px;
+  background:#f2f2f2;
+}
+
+.hero h2{
+  font-size:2.5rem;
+  margin-bottom:10px;
+}
+
+.hero p{
+  color:#555;
+}
+
+section{
+  padding:60px;
+  max-width:1100px;
+  margin:auto;
+}
+
+h2{
+  font-size:1.4rem;
+  margin-bottom:20px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+.card{
+  border:1px solid #e5e5e5;
+  padding:20px;
+  background:#fff;
+  transition:0.2s;
+}
+
+.card:hover{
+  box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.skills span{
+  display:inline-block;
+  border:1px solid #d6d6d6;
+  padding:6px 12px;
+  margin:5px;
+  font-size:0.85rem;
+}
+
+.cert-card img{
+  width:100%;
+  margin-bottom:10px;
+}
+.cert-grid{
+  display:grid;
+  grid-template-columns:300px; /* fixed card width */
+  gap:20px;
+}
+
+.cert-card{
+  width:400px;   /* prevents stretching */
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid #e5e5e5;
+  color:#666;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Charith Kalhara</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Cloud & DevOps Engineer</h2>
+  
+</div>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I am a first-year Computer Science student specializing in cloud infrastructure and DevOps engineering. I have completed Oracle Cloud Infrastructure Foundations with a high score and continue to build real-world technical skills.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>AWS</span>
+    <span>Azure</span>
+    <span>Oracle Cloud</span>
+    <span>Java</span>
+    <span>GitHub</span>
+    <span>DevOps Fundamentals</span>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-grid">
+
+    
+
+    <div class="card cert-card">
+      <img src="az900.png" alt="AZ-900 Certificate">
+      <h3>Microsoft Azure Fundamentals (AZ-900)</h3>
+      <p>Fundamental knowledge of Azure cloud services</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Mail Merge Generator</h3>
+      <p>Simple mail merge engine for softwares that work in Windows,Linux and MacOS without needing Microsoft Word and works with cloud systems. </p>
+ <a href="https://github.com/CharithKalhara/MailMergeGit"_blank">
+    View Project →
+  </a>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Personal website hosted using GitHub Pages.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: charithkalhara2005@gmail.com</p>
+  <p>GitHub: <a href="https://github.com/CharithKalhara">CharithKalhara</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Charith Kalhara</p>
+</footer>
+
+</body>
+</html>
